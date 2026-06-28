@@ -1,0 +1,11 @@
+# Ignore dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore environment variables / database credentials
+.env
+backend/.env
+
+# Ignore local build files
+frontend/dist/
